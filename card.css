@@ -19,3 +19,38 @@
   /* makes the appearance look more like a card, up to you to change */
   border-radius: 10px;
 }
+
+.headimage {
+  background-color: rgb(207, 194, 2);
+
+  margin: 10px auto;
+}
+.name {
+  background-color: rgb(42, 161, 165);
+
+  margin: 10px auto;
+}
+
+.info {
+  background-color: blueviolet;
+
+  margin: 10px auto;
+}
+
+.description {
+  background-color: rgb(30, 214, 6);
+
+  margin: 10px auto;
+}
+
+.abilities {
+  background-color: rgb(42, 99, 165);
+
+  margin: 10px auto;
+}
+
+.skill {
+  background-color: brown;
+
+  margin: 10px auto;
+}
