@@ -31,18 +31,18 @@ body {
   border-radius: 10px;
 
   overflow: hidden;
-
   box-shadow: 10px 5px 5px #022623;
+  filter: grayscale(100);
+}
 
-  /*outline: 5px solid #022623;
-  outline-offset: -5px; */
+.card:hover {
+  filter: grayscale(0);
 }
 
 .headimage {
   width: 430px;
   height: 300px;
   background-color: #075951;
-
 }
 
 .avatar {
@@ -107,6 +107,6 @@ body {
   width: 50px;
   height: 50px;
   background-color: rgb(206, 0, 0);
-  margin: 20px 0 20px 5px;
-  box-shadow: 2px 4px 4px #022623;
+  margin: 20px 0 20px 5px; 
+  box-shadow: 2px 4px 4px #022623; 
 }
